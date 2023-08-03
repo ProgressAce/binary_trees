@@ -3,10 +3,10 @@
 /**
  * binary_tree_nodes - counts the nodes with at least 1 child in a binary tree.
  * @tree: pointer to the root node of the tree to count the number of nodes.
- * 
+ *
  * Implementation: Go to last nodes with recursion. If a node is has at least
  * one child then the counter is incremented. If not then it remains the same.
- * 
+ *
  * If the tree is NULL, then 0 is returned.
  * Return: the number of nodes with at least one child from the given node
  * of the tree.

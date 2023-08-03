@@ -1,10 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binay_tree_is_root - checks if a node is the root of the binary tree.
+ * binary_tree_is_root - checks if a node is the root of the binary tree.
  * @node: the node to check.
- * 
- * The root is the first node of the binary tree. Therefore it has no parent node.
+ *
+ * The root is the first node of the binary tree. Therefore it has no
+ * parent node.
  * If node is NULL, 0 is returned.
  * Return: 1 if node is a leaf, otherwise 0.
  */

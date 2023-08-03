@@ -3,7 +3,7 @@
 /**
  * binary_tree_depth - measures the depth of a node in a binary tree.
  * @tree: pointer to the node to measure its depth in the tree.
- * 
+ *
  * If the tree is NULL, then 0 is returned.
  * Return: the depth of the node in the tree.
  */

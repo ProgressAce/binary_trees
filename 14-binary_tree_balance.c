@@ -3,11 +3,11 @@
 /**
  * binary_tree_balance - measures the balance factor of a binary tree.
  * @tree: pointer to the root node of the tree to count the number of nodes.
- * 
+ *
  * Implementation: Use binary_tree_height function to get the left and right
  * heights respectively. Then subtract the right height from the left one to
  * determine the balance factor.
- * 
+ *
  * If the tree is NULL, then 0 is returned.
  * Return: the number of nodes with at least one child from the given node
  * of the tree.
@@ -31,7 +31,7 @@ int binary_tree_balance(const binary_tree_t *tree)
 /**
  * binary_tree_height - measures the height of a node in a binary tree.
  * @tree: pointer to the root node of the tree to measure its height.
- * 
+ *
  * Algorithm Description: The left and right heights start at -1
  * so that the total height does not include the root as a height.
  * If the tree is NULL, then 0 is returned.

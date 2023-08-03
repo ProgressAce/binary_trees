@@ -3,7 +3,7 @@
 /**
  * binary_tree_height - measures the height of a node in a binary tree.
  * @tree: pointer to the root node of the tree to measure its height.
- * 
+ *
  * Algorithm Description: The left and right heights start at 0
  * so that the total height does not include the root as a height.
  * If the tree is NULL, then 0 is returned.

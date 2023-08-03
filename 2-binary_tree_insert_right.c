@@ -7,8 +7,8 @@
  * @parent: pointer to the new node's parent.
  * @value: int value of the new node.
  *
- * If parent already has a right-child then it will be replaced by the new node,
- * and the old right-child will now be the new node's right child.
+ * If parent already has a right-child then it will be replaced by the new
+ * node, and the old right-child will now be the new node's right child.
  * Return: pointer to the new_node, otherwise NULL.
  */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
